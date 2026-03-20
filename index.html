@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AgriSmart Hub - connecting farmers, buyers and experts for smarter agriculture.">
+  <title>AgriSmart Hub | Home</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg main-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand site-logo" href="index.html">AgriSmart Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuBar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuBar">
+        <ul class="navbar-nav ms-auto nav-links">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="innovations.html">Innovations</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+ <section class="hero text-center d-flex align-items-center" style="background-image: url('images/main1.jpeg');">
+    <div class="container">
+      <h1 class="hero-title">Grow Smarter with AgriSmart Hub</h1>
+      <p class="hero-text">Connecting farmers, buyers, and agri-experts for a better farming future.</p>
+      <a href="about.html" class="btn join-btn">Join Now</a>
+    </div>
+  </section>
+  
+  <section class="features py-5 text-center">
+    <div class="container">
+      <h2 class="section-title mb-4">Our Key Features</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-card p-4 shadow-sm h-100">
+            <img src="images/home1.png" class="img-fluid rounded mb-3" alt="">
+            <h4>Smart Farming Tech</h4>
+            <p>Helping farmers adopt modern technologies for better yield and efficiency.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="feature-card p-4 shadow-sm h-100">
+            <img src="images/home2.jpeg" class="img-fluid rounded mb-3" alt="">
+            <h4>Market Access Platform</h4>
+            <p>Connecting farmers directly with buyers to get fair market prices.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="feature-card p-4 shadow-sm h-100">
+            <img src="images/home3.jpeg" class="img-fluid rounded mb-3" alt="">
+            <h4>Climate Advisory</h4>
+            <p>Real-time weather insights and crop protection tips for sustainable growth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer py-3">
+    <div class="container text-center">
+      <div class="py-2">
+        <small>© <span class="year"></span> AgriSmart Hub. All Rights Reserved.</small>
+      </div>
+      <div class="py-2 social-icons">
+        <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.querySelectorAll(".year").forEach(y => {
+      y.textContent = new Date().getFullYear();
+    });
+  </script>
+
+</body>
+</html>
