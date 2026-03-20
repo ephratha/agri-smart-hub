@@ -38,6 +38,11 @@ Academic Project
 
 ---
 
+## Live Demo
+https://ephratha.github.io/hospital-appointment-website/index.html
+
+---
+
 ## Notes
 - This is a frontend only project (no backend integration)
 - All pages share a consistent design using a single CSS file
